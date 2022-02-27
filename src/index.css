@@ -1,0 +1,34 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.dila_anim{
+  animation-duration: 5s;
+}
+
+@layer base {
+  :root {
+    --color-text-muted: #727272;
+    --bg-main: #00bcde;
+    --color-text: #00bcde;
+    --bg-second: #82ecff;
+    --text-main: #ffffff;
+    --bg-other: #ffe682;
+  }
+  .theme-blue {
+    --color-text-muted: #727272;
+    --bg-main: #2563EB;
+    --color-text: #2563EB;
+    --bg-second: #497ef4;
+    --text-main: #ffffff;
+    --bg-other: #ffe682;
+  }
+  .theme-red {
+    --color-text-muted: #727272;
+    --bg-main: #DC2626;
+    --color-text: #DC2626;
+    --bg-second: #ec5555;
+    --text-main: #ffffff;
+    --bg-other: #ffe682;
+  }
+}

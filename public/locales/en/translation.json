@@ -1,0 +1,12 @@
+{
+  "app": {
+    "name": "Dashboard"
+  },
+  "theme": "Theme",
+  "search": "Search",
+  "add": "Add",
+  "home":"Home",
+  "other":"Other",
+  "color": "Color",
+  "lang":"Language"
+}
